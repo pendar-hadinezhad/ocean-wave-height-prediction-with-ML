@@ -42,7 +42,7 @@ from sklearn.neural_network import MLPRegressor
 X = data_time_series[['D_0' ,'D_1' , 'D_2']]
 Y = data_time_series['D_plus_1']
 
-"define a model"
+"define a regression model"
 model = MLPRegressor()
 
 "split the data to train, test , split"
